@@ -1,0 +1,461 @@
+//base styles for everything that isn't width specific
+
+/*================================
+FONT-FACE
+=================================*/
+
+@font-face {
+    font-family: 'Olivier';
+    src: url('../fonts/olivier.eot');
+    src: url('../fonts/olivier.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/olivier.woff2') format('woff2'),
+         url('../fonts/olivier.woff') format('woff'),
+         url('../fonts/olivier.ttf') format('truetype'),
+         url('../fonts/olivier.svg#olivierregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*================================
+GENERAL SETTINGS
+=================================*/
+
+$base-font-family: "Open Sans", sans-serif;
+$container_max_width: 1020px;
+$headings-font-family: "Olivier", cursive;
+
+/*================================
+COLOURS
+=================================*/
+
+$purple: #aa7e88;
+$grey: #f1f0ea;
+$d_grey: #deddd5;
+
+/*================================
+TYPOGRAPHIC SETTINGS
+=================================*/
+
+$base-font-size: 1rem;
+$base-line-height: 1.5rem;
+$measure: 760px; //47.5rem
+
+$h1-font-size: 1rem*1.5*1.5*1.5; //3.375rem
+$h1-line: 1.5rem;
+$h1-lines: 3;
+$h1-line-height: $h1-line * $h1-lines;
+$h1-margin-top: 2 * $h1-line;
+$h1-margin-bottom: 1 * $h1-line;
+
+$h2-font-size: 1rem*1.5*1.5;
+$h2-line: 1.5rem;
+$h2-lines: 2;
+$h2-line-height: $h2-line * $h2-lines;
+$h2-margin-top: 2 * $h2-line;
+$h2-margin-bottom: 1 * $h2-line;
+
+$h3-font-size: 1rem*1.5;
+$h3-line: 1.5rem;
+$h3-lines: 1.5;
+$h3-line-height: $h3-line * $h3-lines;
+$h3-margin-top: 1 * $h3-line;
+$h3-margin-bottom: 1 * $h3-line;
+
+$h4-font-size: 1rem;
+$h4-line: 1.5rem;
+$h4-lines: 1;
+$h4-line-height: $h4-line * $h4-lines;
+$h4-margin-top: 1 * $h4-line;
+$h4-margin-bottom: 1 * $h4-line;
+
+/*================================
+TINY RESET
+=================================*/
+
+* {
+  @include border-box();
+}
+
+html, body {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  height: 100%;
+  width: 100%;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+body {
+  font-family: $base-font-family;
+  background: $grey;
+}
+
+/*================================
+TYPOGRAPHY
+=================================*/
+
+.h1,.h2,.h3,.h4 {
+  font-family: $headings-font-family;
+}
+
+.h1 {
+  padding: 0 0 0 0;
+  font-size: $h1-font-size;
+  line-height: $h1-line-height;
+  margin: $h1-margin-top 0 $h1-margin-bottom 0;
+}
+
+.h2 {
+  padding: 0 0 0 0;
+  font-size: $h2-font-size;
+  line-height: $h2-line-height;
+  margin: $h2-margin-top 0 $h2-margin-bottom 0;
+}
+
+.h3 {
+  padding: 0 0 0 0;
+  font-size: $h3-font-size;
+  line-height: $h3-line-height;
+  margin: $h3-margin-top 0 $h3-margin-bottom 0;
+}
+
+.h4 {
+  padding: 0 0 0 0;
+  font-size: $h4-font-size;
+  line-height: $h4-line-height;
+  margin: $h4-margin-top 0 $h4-margin-bottom 0;
+}
+
+p, ul {
+  padding: 0 0 0 0;
+  margin: $h4-margin-top 0 $h4-margin-bottom 0;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color:$purple;
+}
+
+img, iframe {
+  max-width: 100%;
+}
+
+img {
+  width: auto;
+  height:auto;
+}
+
+/*================================
+SIZE PRIMITIVES & BLOCKS
+=================================*/
+
+.container {
+  width: 100%;
+  max-width: $container_max_width;
+  margin: 0 auto 0 auto;
+  @include clearfix();
+}
+
+//turns the container to work as a flex container
+.container--flex {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+}
+
+.hero {
+  padding: 9.375rem 0;
+  position:relative;
+}
+
+.full {
+  width: columns(12);
+}
+
+.half {
+  width: columns(12);
+}
+
+.third {
+  width: columns(12);
+}
+
+.quarter {
+  width: columns(12);
+}
+
+//Used to contain images
+.media-holder {
+  text-align:center;
+}
+
+img, iframe {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+/*================================
+BUTTONS
+=================================*/
+
+.btn {
+  display: block;
+  padding: 15px 10px;
+  text-align:center;
+}
+
+.btn--purple {
+  background: $purple;
+  color:$grey;
+}
+
+.btn--purple-outline {
+  border: 1px solid $purple;
+  color: $purple;
+  font-size: .75rem;
+  padding: 5px 10px;
+  @include transition(all 0.5s);
+
+  &:hover {
+    background: $purple;
+    color:$grey;
+  }
+}
+
+/*================================
+BACKGROUND MODIFIERS
+=================================*/
+
+.background--purple {
+  background: $purple;
+}
+
+/*================================
+TEXT MODIFIERS
+=================================*/
+
+.text--grey {
+  color: $grey;
+}
+
+.text--hero {
+  margin-top: 0;
+  font-size: 1rem*1.5*1.5*1.5*1.5; //5.06525
+}
+
+/*================================
+LAYOUT HELPERS
+=================================*/
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+/*================================
+HEADER STYLES
+=================================*/
+
+.header {
+  background: $purple;
+  padding: 0 0;
+  ul {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    @include clearfix();
+
+    li {
+      float:left;
+      list-style: none;
+
+      a {
+        display: block;
+        padding: 1.25rem 15px;
+        text-align:center;
+        font-family: $headings-font-family;
+        color:$grey;
+        font-size: $h3-font-size;
+        border-bottom: 2px solid transparent;
+
+        &:hover {
+          border-bottom: 2px solid $grey;
+        }
+      }
+    }
+  }
+}
+
+/*================================
+POST CARD ITEMS
+=================================*/
+
+.post-outer {
+  -webkit-flex: 0 0 100%;
+  flex: 0 0 100%;
+  -webkit-display: flex;
+  display:flex;
+  padding: 1.25rem;
+
+  a {
+    -webkit-display: flex;
+    display:flex;
+
+    &:hover {
+      .post {
+        .h2 {
+          border-bottom: 1px solid $purple;
+        }
+      }
+    }
+  }
+}
+
+.post {
+  padding: 1.25rem;
+  background: $d_grey;
+  position:relative;
+  color:$purple;
+
+  .h2 {
+    margin-top: 0;
+    border-bottom: 1px solid transparent;
+  }
+}
+
+.by-line {
+  font-family: $headings-font-family;
+}
+
+.pagination {
+  padding: 1.25rem 0;
+}
+
+/*================================
+POST SINGLE
+=================================*/
+
+.post__byline {
+  font-family: $headings-font-family;
+  color:$grey;
+  font-size: 1rem*1.5;
+  .author,.date {
+    display:inline-block;
+    padding: 10px 15px;
+  }
+}
+
+.post-content {
+  margin: 3.125rem auto 3.125rem auto;
+  max-width: 680px;
+  padding: 0 1.25rem;
+
+  p {
+    font-size: 1.125rem;
+    line-height: 1.5em;
+    color:#666;
+  }
+
+  h1 {
+    padding: 0 0 0 0;
+    font-size: $h1-font-size;
+    line-height: $h1-line-height;
+    margin: $h1-margin-top 0 $h1-margin-bottom 0;
+    color:#555;
+  }
+
+  h2 {
+    padding: 0 0 0 0;
+    font-size: $h2-font-size;
+    line-height: $h2-line-height;
+    margin: $h2-margin-top 0 $h2-margin-bottom 0;
+    color:#555;
+  }
+
+  h3 {
+    padding: 0 0 0 0;
+    font-size: $h3-font-size;
+    line-height: $h3-line-height;
+    margin: $h3-margin-top 0 $h3-margin-bottom 0;
+    color:#555;
+  }
+
+  h4 {
+    padding: 0 0 0 0;
+    font-size: $h4-font-size;
+    line-height: $h4-line-height;
+    margin: $h4-margin-top 0 $h4-margin-bottom 0;
+    color:#555;
+  }
+
+  blockquote {
+    font-style: italic;
+    margin: 0 0 0 0;
+    padding: 0 3rem 0 3rem;
+    border-left: 2px solid $purple;
+    p {
+      color:#999;
+    }
+  }
+
+  ul,ol {
+    padding: 0 0 0 1.25rem;
+    color:#666;
+
+    li {
+      padding: 5px 0;
+    }
+  }
+
+  a {
+    &:hover {
+      background:$purple;
+      color:$grey;
+    }
+  }
+}
+
+.heading--small {
+  font-size: .875rem;
+  text-transform: uppercase;
+  color:$grey;
+  margin-bottom: .625rem;
+}
+
+.terms-list {
+  a {
+    display: inline-block;
+    font-size: .75rem;
+    color:$grey;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+
+    &:hover {
+      border-bottom: 1px solid $grey;
+    }
+  }
+}
+
+footer {
+  padding: 5px 1.25rem;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.copyright {
+  font-size: .75rem;
+  font-family: $headings-font-family;
+  color:$purple;
+}
