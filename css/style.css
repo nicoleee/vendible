@@ -145,6 +145,10 @@ BUTTONS
   color: #f1f0ea; }
 
 .btn--purple-outline {
+  border: 2px solid #aa7e88;
+  color: #aa7e88; }
+
+.btn--purple-outline {
   border: 1px solid #aa7e88;
   color: #aa7e88;
   font-size: .75rem;
@@ -220,21 +224,154 @@ HEADER STYLES
       list-style: none;
       display: inline-block; }
       .nav ul li a {
-        color: #4e4e4e;
+        color: #deddd5;
         padding: 0 25px 0 25px; }
+
+/*================================
+HEADER STYLES
+=================================*/
+.header {
+  background: #aa7e88;
+  padding: 0 0; }
+  .header ul {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0; }
+    .header ul:before, .header ul:after {
+      content: " ";
+      display: table; }
+    .header ul:after {
+      clear: both; }
+    .header ul li {
+      float: left;
+      list-style: none; }
+      .header ul li a {
+        display: block;
+        padding: 1.25rem 15px;
+        text-align: center;
+        font-family: "Olivier", cursive;
+        color: #f1f0ea;
+        font-size: 1.5rem;
+        border-bottom: 2px solid transparent; }
+        .header ul li a:hover {
+          border-bottom: 2px solid #f1f0ea; }
+
+/*================================
+POST CARD ITEMS
+=================================*/
+.post-outer {
+  -webkit-flex: 0 0 100%;
+  flex: 0 0 100%;
+  -webkit-display: flex;
+  display: flex;
+  padding: 1.25rem; }
+  .post-outer a {
+    -webkit-display: flex;
+    display: flex; }
+    .post-outer a:hover .post .h2 {
+      border-bottom: 1px solid #aa7e88; }
+
+.post {
+  padding: 1.25rem;
+  background: #deddd5;
+  position: relative;
+  color: #aa7e88; }
+  .post .h2 {
+    margin-top: 0;
+    border-bottom: 1px solid transparent; }
+
+.by-line {
+  font-family: "Olivier", cursive; }
+
+.pagination {
+  padding: 1.25rem 0; }
+
+/*================================
+POST SINGLE
+=================================*/
+.post__byline {
+  font-family: "Olivier", cursive;
+  color: #f1f0ea;
+  font-size: 1.5rem; }
+  .post__byline .author, .post__byline .date {
+    display: inline-block;
+    padding: 10px 15px; }
+
+.post-content {
+  margin: 3.125rem auto 3.125rem auto;
+  max-width: 680px;
+  padding: 0 1.25rem; }
+  .post-content p {
+    font-size: 1.125rem;
+    line-height: 1.5em;
+    color: #666; }
+  .post-content h1 {
+    padding: 0 0 0 0;
+    font-size: 3.375rem;
+    line-height: 4.5rem;
+    margin: 3rem 0 1.5rem 0;
+    color: #555; }
+  .post-content h2 {
+    padding: 0 0 0 0;
+    font-size: 2.25rem;
+    line-height: 3rem;
+    margin: 3rem 0 1.5rem 0;
+    color: #555; }
+  .post-content h3 {
+    padding: 0 0 0 0;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin: 1.5rem 0 1.5rem 0;
+    color: #555; }
+  .post-content h4 {
+    padding: 0 0 0 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 1.5rem 0 1.5rem 0;
+    color: #555; }
+  .post-content blockquote {
+    font-style: italic;
+    margin: 0 0 0 0;
+    padding: 0 3rem 0 3rem;
+    border-left: 2px solid #aa7e88; }
+    .post-content blockquote p {
+      color: #999; }
+  .post-content ul, .post-content ol {
+    padding: 0 0 0 1.25rem;
+    color: #666; }
+    .post-content ul li, .post-content ol li {
+      padding: 5px 0; }
+  .post-content a:hover {
+    background: #aa7e88;
+    color: #f1f0ea; }
 
 /*================================
 FOOTER STYLES
 =================================*/
+.heading--small {
+  font-size: .875rem;
+  text-transform: uppercase;
+  color: #f1f0ea;
+  margin-bottom: .625rem; }
+
+.terms-list a {
+  display: inline-block;
+  font-size: .75rem;
+  color: #f1f0ea;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+  .terms-list a:hover {
+    border-bottom: 1px solid #f1f0ea; }
+
 footer {
   padding: 5px 1.25rem;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  color: #4e4e4e; }
+  color: #deddd5; }
   footer a {
-    color: #4e4e4e; }
+    color: #deddd5; }
 
 .copyright {
-  font-size: .75rem; }
+  font-size: .75rem;
+  font-family: "Olivier", cursive;
+  color: #aa7e88; }
 
 @media screen and (min-width: 1020px) {
   .full {
