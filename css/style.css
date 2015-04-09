@@ -225,7 +225,14 @@ SLIDER STYLES
 
 .slide {
   height: 100%;
-  float: left; }
+  float: left;
+  position: relative; }
+  .slide img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
 
 /*================================
 HEADER STYLES
