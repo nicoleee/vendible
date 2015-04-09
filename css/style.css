@@ -212,8 +212,13 @@ SLIDER STYLES
   width: 100%;
   height: 600px;
   overflow: hidden;
-  background: url("../media/high-street.png") no-repeat 50% 50%;
-  background-size: cover; }
+  position: relative; }
+  .slider-wrap img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
 
 .slider {
   -webkit-transition: all 0.5s;

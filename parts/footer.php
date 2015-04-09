@@ -11,7 +11,7 @@
 				domElement: '#slider'
 			});
 
-			var delay = 3;
+			var delay = 5;
 
 			var slideTimer = setInterval(function() {
 				if (Slider.index >= Slider.slidesAmount - 1) {
