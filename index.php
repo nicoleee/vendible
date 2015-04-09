@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include './parts/header.php';
 
@@ -12,8 +12,23 @@ include './parts/header.php';
 </div>
 
 <div class="section container">
-	<img src="media/high-street.png" alt="Slider">
-	</div>
+	<div class="slider-wrap">
+    <div class="slider" id="slider">
+      <div class="slide">
+
+      </div>
+      <div class="slide">
+
+      </div>
+      <div class="slide">
+
+      </div>
+      <div class="slide">
+
+      </div>
+    </div>
+  </div>
+</div>
 
 <?php
 
