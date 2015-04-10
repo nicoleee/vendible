@@ -8,24 +8,43 @@ include './parts/header.php';
 	<h1 class="h1 align-center text--purple">products</h1>
 </div>
 
-<div class="container section align-center quarter">
+<!--
+Container for all buttons
+	-->
 
-<p class="btn--purple-outline align-center">
+<div class="container media-holder">
+
+<!--
+Buttons on the left
+	-->
+
+<div class="left third pad-image">
+
+<p class="btn--purple-outline">
 	Window transfers
 </p>
 
-<p class="btn--purple-outline align-center">
+<p class="btn--purple-outline">
 	Motion graphics
 </p>
 
-<p class="btn--purple-outline align-center">
+</div>
+
+<!--
+Buttons on the right
+	-->
+
+<div class="left third pad-image">
+
+<p class="btn--purple-outline">
 	Photo booths
 </p>
 
-<p class="btn--purple-outline align-center">
+<p class="btn--purple-outline">
 	Premade packs
 </p>
 
+</div>
 </div>
 
  <?php
