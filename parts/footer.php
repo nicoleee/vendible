@@ -1,9 +1,28 @@
 		<footer>
 			<div class="container align-center">
+
 				<a href="http://www.nicolecookdesigns.co.uk">www.nicolecookdesigns.co.uk</a>
+				
+<!--
+Footer links to social media account
+-->
+				<p>
+				<a href="https://www.facebook.com/pages/Vendible/329195953957460?ref=bookmarks">
+					<img src="media/facebooklogo.png">
+				</a>
+
+			    <a href="http://vendiblevisual.tumblr.com/">
+					<img src="media/tumblrlogo.png">
+				</a>
+			    </p>
+
 				<p class="copyright">&copy; Nicole Cook 2015 | All Rights Reserved</p>
 			</div>
 		</footer>
+
+<!--
+ JS for homepage slider
+-->
 		<script src="js/bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="js/slider.js"></script>
 		<script>
