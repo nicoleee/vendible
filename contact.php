@@ -7,8 +7,8 @@ include './parts/header.php';
  <div class="container">
 	<h1 class="h1 align-center text--purple">let's talk</h1>
 
-	<p class="left">If you want to get in contact, send me an email or a message through Twitter. Also, take a look at how Vendible was created and
-	 browse the production blog.</p>
+	<p class="left">If you want to get in contact, send an email or a message through Vendible's Facebook page. Also, take a look at how 
+		Vendible was created and browse the production blog.</p>
 </div>
 
 <div class="section container quarter">
@@ -19,9 +19,9 @@ include './parts/header.php';
 		nicole_cook@outlook.com
 	</p></a>
 
-	<a href="https://twitter.com/nicole_elocin_">
+	<a href="https://www.facebook.com/pages/Vendible/329195953957460?ref=hl">
 	<p class="btn--purple-outline align-center">
-		nicole_elocin_
+		Facebook
 	</p></a>
 
 	<a href="http://vendiblevisual.tumblr.com/">
