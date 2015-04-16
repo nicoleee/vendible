@@ -14,9 +14,11 @@ include './parts/header.php';
 
 <div class="section container">
 
+<a href="https://www.facebook.com/media/set/?set=a.329707043906351.1073741830.329195953957460&type=1">
 	<div class="third media-holder left pad-image">
-		<img src="media/who-graphic.png" alt="Window Transfer">
+		<img src="media/who-window.png" alt="Window Transfer">
 	</div>
+</a>
 
 	<div class="third media-holder left pad-image">
 		<img src="media/who-graphic.png" alt="Motion Graphic">
