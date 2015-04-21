@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include './parts/header.php';
 
@@ -18,33 +18,74 @@ Container for all buttons
 Buttons on the left
 	-->
 
-<div class="left third pad-image">
+  <div class="left half pad-image">
 
-<p class="btn--purple-outline">
-	Window transfers
-</p>
 
-<p class="btn--purple-outline">
-	Motion graphics
-</p>
+    <div class="product-wrap">
+      <p class="btn--purple-outline">Window transfers</p>
+      <div class="product">
+        <div class="product-img third left">
+          <img src="media/who-graphic.png" alt="" />
+        </div>
+        <div class="product-description two-thirds left">
+          <p>Vendible offers visual marketing products for shop windows, stores and festivals. They are perfect to make your store stand out and
+        		be remembered. A wide range of playful window transfers, motion graphics and photo booths. Premade themed products are ideal for
+        		Easter, Christmas or Halloween.</p>
+        </div>
+      </div>
+    </div>
 
-</div>
+    <div class="product-wrap">
+      <p class="btn--purple-outline">Motion Graphics</p>
+      <div class="product">
+        <div class="product-img third left">
+          <img src="media/who-graphic.png" alt="" />
+        </div>
+        <div class="product-description two-thirds left">
+          <p>Vendible offers visual marketing products for shop windows, stores and festivals. They are perfect to make your store stand out and
+        		be remembered. A wide range of playful window transfers, motion graphics and photo booths. Premade themed products are ideal for
+        		Easter, Christmas or Halloween.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
 <!--
 Buttons on the right
 	-->
 
-<div class="left third pad-image">
+  <div class="left half pad-image">
 
-<p class="btn--purple-outline">
-	Photo booths
-</p>
+    <div class="product-wrap">
+      <p class="btn--purple-outline">Photo Booths</p>
+      <div class="product">
+        <div class="product-img third left">
+          <img src="media/who-graphic.png" alt="" />
+        </div>
+        <div class="product-description two-thirds left">
+          <p>Vendible offers visual marketing products for shop windows, stores and festivals. They are perfect to make your store stand out and
+        		be remembered. A wide range of playful window transfers, motion graphics and photo booths. Premade themed products are ideal for
+        		Easter, Christmas or Halloween.</p>
+        </div>
+      </div>
+    </div>
 
-<p class="btn--purple-outline">
-	Premade packs
-</p>
+    <div class="product-wrap">
+      <p class="btn--purple-outline">Premade Packs</p>
+      <div class="product">
+        <div class="product-img third left">
+          <img src="media/who-graphic.png" alt="" />
+        </div>
+        <div class="product-description two-thirds left">
+          <p>Vendible offers visual marketing products for shop windows, stores and festivals. They are perfect to make your store stand out and
+        		be remembered. A wide range of playful window transfers, motion graphics and photo booths. Premade themed products are ideal for
+        		Easter, Christmas or Halloween.</p>
+        </div>
+      </div>
+    </div>
 
-</div>
+  </div>
 </div>
 
  <?php

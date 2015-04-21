@@ -187,6 +187,10 @@ SIZE PRIMITIVES & BLOCKS
   width: columns(12);
 }
 
+.two-thirds {
+  width: columns(12);
+}
+
 .quarter {
   width: columns(12);
 }
@@ -325,6 +329,37 @@ SLIDER STYLES
     left:0;
     height: 100%;
     width:100%;
+  }
+}
+
+/*================================
+PRODUCT PAGE STYLES
+=================================*/
+
+.product-wrap {
+  overflow: hidden;
+  height: 80px;
+  @include transition(height 0.5s);
+
+  &:hover {
+    height: 280px;
+  }
+}
+
+.product {
+  @include clearfix();
+}
+
+.product-img {
+  text-align:center;
+  margin-top: 1.5rem;
+}
+
+.product-description {
+  padding-left: 20px;
+  p {
+    font-size: .75rem;
+    text-align: left;
   }
 }
 
