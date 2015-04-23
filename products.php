@@ -22,10 +22,10 @@ Buttons on the left
 
 
     <div class="product-wrap">
-      <p class="btn--purple-outline">Window transfers</p>
+      <p class="btn--purple-outline">Window Transfers</p>
       <div class="product">
         <div class="product-img third left">
-          <img src="media/who-window.png" alt="" />
+          <img src="media/prod-window.png" alt="" />
         </div>
         <div class="product-description two-thirds left">
           <p>Window transfers are a fun and interactive way to give customers an experience. Adults and kids love taking photographs 
@@ -39,7 +39,7 @@ Buttons on the left
       <p class="btn--purple-outline">Motion Graphics</p>
       <div class="product">
         <div class="product-img third left">
-          <img src="media/who-graphic.png" alt="" />
+          <img src="media/prod-graphic.png" alt="" />
         </div>
         <div class="product-description two-thirds left">
           <p>Motion graphics are modern and playful. They can be easily updated to display new offers or promotions. Having an eye catching
@@ -61,7 +61,7 @@ Buttons on the right
       <p class="btn--purple-outline">Photo Booths</p>
       <div class="product">
         <div class="product-img third left">
-          <img src="media/who-photobooth.png" alt="" />
+          <img src="media/photobooth.png" alt="" />
         </div>
         <div class="product-description two-thirds left">
           <p>Photo booths are ideal for groups! Customers remember their experience and share the photographs on social media, making them 
