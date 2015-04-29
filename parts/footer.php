@@ -1,12 +1,10 @@
 		<footer>
-			<div class="container align-center">
-
-				
-				
+			<div class="container align-center">							
 <!--
 Footer links to social media account
 -->
 				<p>
+
 				<a href="https://www.facebook.com/pages/Vendible/329195953957460?ref=bookmarks">
 					<img src="media/facebooklogo.png">
 				</a>
@@ -14,7 +12,16 @@ Footer links to social media account
 			    <a href="http://vendiblevisual.tumblr.com/">
 					<img src="media/tumblrlogo.png">
 				</a>
+
+				 <a href="https://github.com/nicoleee/vendible">
+					<img src="media/github.png">
+				</a>
+
 			    </p>
+
+<!--
+Footer text
+-->
 
 				<p class="copyright">
 				<a href="http://www.nicolecookdesigns.co.uk">www.nicolecookdesigns.co.uk</a>
