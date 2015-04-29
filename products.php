@@ -22,7 +22,9 @@ Buttons on the left
 
 
     <div class="product-wrap">
-      <p class="btn--purple-outline">Window Transfers</p>
+      <a href="buy-window.php">
+        <p class="btn--purple-outline">Window Transfers</p>
+      </a>
       <div class="product">
         <div class="product-img third left">
           <img src="media/prod-window.png" alt="" />
@@ -36,7 +38,9 @@ Buttons on the left
     </div>
 
     <div class="product-wrap">
-      <p class="btn--purple-outline">Motion Graphics</p>
+      <a href="buy-graphic.php">
+        <p class="btn--purple-outline">Motion Graphics</p>
+      </a>
       <div class="product">
         <div class="product-img third left">
           <img src="media/prod-graphic.png" alt="" />
@@ -58,7 +62,9 @@ Buttons on the right
   <div class="left half pad-image">
 
     <div class="product-wrap">
-      <p class="btn--purple-outline">Photo Booths</p>
+      <a href="buy-photo.php">
+        <p class="btn--purple-outline">Photo Booths</p>
+      </a>
       <div class="product">
         <div class="product-img third left">
           <img src="media/photobooth.png" alt="" />
@@ -72,7 +78,9 @@ Buttons on the right
     </div>
 
     <div class="product-wrap">
-      <p class="btn--purple-outline">Premade Kits</p>
+      <a href="buy-kit.php">
+        <p class="btn--purple-outline">Premade Kits</p>
+      </a>
       <div class="product">
         <div class="product-img third left">
           <img src="media/premade.png" alt="" />
