@@ -1,7 +1,7 @@
 		<footer>
 			<div class="container align-center">
 
-				<a href="http://www.nicolecookdesigns.co.uk">www.nicolecookdesigns.co.uk</a>
+				
 				
 <!--
 Footer links to social media account
@@ -16,7 +16,13 @@ Footer links to social media account
 				</a>
 			    </p>
 
-				<p class="copyright">&copy; Nicole Cook 2015 | All Rights Reserved</p>
+				<p class="copyright">
+				<a href="http://www.nicolecookdesigns.co.uk">www.nicolecookdesigns.co.uk</a>
+				</br>
+					nicole_cook@outlook.com
+				</br>
+					&copy; Nicole Cook 2015 | All Rights Reserved</p>
+
 			</div>
 		</footer>
 
