@@ -18,7 +18,6 @@
 					<li><a href="who.php">Who's it for?</a></li>
 					<li><a href="how.php">How it works</a></li>
 					<li><a href="join.php">Join in</a></li>
-					<li><a href="contact.php">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
