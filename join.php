@@ -18,22 +18,35 @@ include './parts/header.php';
 	
 </div>
 
-<div class="container quarter">
-<a href="http://www.eleanorcook.co.uk">
-	<p class="btn--purple-outline align-center">
-		Current artists
-	</p></a>
-</div>
+<div class="container">
+	<div class="left half media-holder pad-image">
 
-<div class="container third">
-
-	<div class="align-center pad-image">
-		<img src="media/ellie-art.png" alt="Current artwork">
+		<a href="http://www.eleanorcook.co.uk">
+			<p class="btn--purple-outline left full">
+				Current artists
+			</p>
+		</a>
+		<img src="media/ellie-art.png" alt="Current artwork" class="pad-image">
 	</div>
 
+	<div class="left half media-holder pad-image">
+
+		<a href="#">
+			<p class="btn--purple-outline right full">
+				Join in
+			</p>
+		</a>
+		<img src="media/ellie-art.png" alt="Current artwork" class="pad-image">
+
+	</div>
 </div>
 
- <?php
+<!--
+Images
+!-->
+
+
+<?php
 
 include './parts/footer.php';
 
