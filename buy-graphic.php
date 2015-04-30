@@ -4,18 +4,20 @@ include './parts/header.php';
 
  ?>
 
-  <div class="container">
+<div class="container">
  	
  	<h1 class="h1 align-center text--purple">motion graphics</h1>
 
  	<a href="#">
-	<p class="btn--purple-outline align-center third">
+	<p class="btn--purple-outline align-center third left">
 		Buy
-	</p></a>
+	</p>
+	</a>
+	
 
-	<img src="media/who-graphic.png" class="third">
+ 	<img src="media/motion-buy.png" class="right half pad-image">
 
- </div>
+</div>
 
  <?php
 
