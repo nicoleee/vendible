@@ -31,12 +31,12 @@ include './parts/header.php';
 
 	<div class="left half media-holder pad-image">
 
-		<a href="#">
+		<a href="mailto:nicole_cook@outlook.com">
 			<p class="btn--purple-outline right full">
-				Join in
+				Send your artwork
 			</p>
 		</a>
-		<img src="media/ellie-art.png" alt="Current artwork" class="pad-image">
+		<img src="media/join.png" alt="Current artwork" class="pad-image">
 
 	</div>
 </div>
