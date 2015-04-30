@@ -38,7 +38,7 @@ Buttons on the left
     </div>
 
     <div class="product-wrap">
-      <a href="buy-window.php">
+      <a href="buy-graphic.php">
         <p class="btn--purple-outline">Motion Graphics</p>
         <div class="product">
           <div class="product-img third left">
@@ -61,7 +61,7 @@ Buttons on the right
   <div class="left half pad-image">
 
     <div class="product-wrap">
-      <a href="buy-window.php">
+      <a href="buy-photo.php">
         <p class="btn--purple-outline">Photo Booths</p>
         <div class="product">
           <div class="product-img third left">
@@ -78,7 +78,7 @@ Buttons on the right
     </div>
 
     <div class="product-wrap">
-      <a href="buy-window.php">
+      <a href="buy-kit.php">
         <p class="btn--purple-outline">Premade Kits</p>
         <div class="product">
           <div class="product-img third left">
