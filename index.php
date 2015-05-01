@@ -35,6 +35,19 @@ include './parts/header.php';
   </div>
 </div>
 
+<div class="full background--purple">
+  <div class="text-container">
+  <p class="text--grey">
+  Vendible is a service that offers visual marketing products. Our main aim is to give customers an experience in stores that is not 
+  possible online. Vendible also aims to help artists and stores get noticed.
+  </p>
+</div>
+</div>
+
+<div class="container pad-image">
+<img src="media/how.png">
+</div>
+
 <?php
 
 include './parts/footer.php';
