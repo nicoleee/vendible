@@ -72,8 +72,6 @@ Text starts here
 	<p class="left">Our aim is to give customers an experience, making their time physically shopping memorable. 
 		This is something that is not possible online. Vendible products are interactive and have a place in any shop.</p>
 
-	<img src="media/how.png">
-
 </div>
 
 <div class="container">

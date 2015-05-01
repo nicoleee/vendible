@@ -35,11 +35,8 @@ include './parts/header.php';
  !-->
 
  <div class="container">
-
- 	<div class="text-container">
 	
-
-	<p class="left">
+	<p class="text-container">
 		Vendible is a service aimed at shop owners, event organisers and artists. The visual marketing products available are designed
 		to make shopping an experience that is not available online.
 	</br></br>
