@@ -7,8 +7,68 @@ include './parts/header.php';
  <div class="container">
 	<h1 class="h1 align-center text--purple">how vendible works</h1>
 
-	<img src="media/info-poster.jpg"
+<div class="container full">
 
+<!---
+	Divs for clickable poster
+!-->
+
+	<div class="half left">
+		<div class="poster-piece" data-for="shop-url">
+		<img src="media/shop-owner.png" width="220">
+		</div>
+
+		<div class="poster-piece hidden" data-name="shop-url" data-for="pick">
+		<img src="media/site-url.png" width="300">
+		</div>
+
+		<div class="poster-piece hidden" data-name="pick" data-for="products">
+		<img src="media/pick-product.png" width="300">
+		</div>
+
+		<div class="poster-piece hidden" data-name="products" data-for="set-up">
+		<img src="media/products.png" width="300">
+		</div>
+	</div>
+
+	<div class="half left">
+		<div class="poster-piece" data-for="artist-url">
+		<img src="media/artist.png" width="220">
+		</div>
+
+		<div class="poster-piece hidden" data-name="artist-url" data-for="upload">
+		<img src="media/site-url.png" width="300">
+		</div>
+
+		<div class="poster-piece hidden" data-name="upload" data-for="make">
+		<img src="media/upload.png" width="300">
+		</div>
+
+		<div class="poster-piece hidden" data-name="make" data-for="buy">
+		<img src="media/make.png" width="300">
+		</div>
+
+		<div class="poster-piece hidden" data-name="buy" data-for="set-up">
+		<img src="media/buy.png" width="300">
+		</div>
+	</div>
+</div>
+
+<div class="container full">
+
+	<div class="poster-piece hidden" data-name="set-up" data-for="experience">
+	<img src="media/set-up.png" width="300">
+	</div>
+
+	<div class="poster-piece hidden" data-name="experience">
+	<img src="media/experience.png" width="300">
+	</div>
+</div>
+
+<!--
+Text starts here
+ !-->
+	
 	<p class="left">Our aim is to give customers an experience, making their time physically shopping memorable. 
 		This is something that is not possible online. Vendible products are interactive and have a place in any shop.</p>
 

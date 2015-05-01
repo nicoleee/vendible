@@ -7,6 +7,8 @@ include './parts/header.php';
  <div class="container">
 	<h1 class="h1 align-center text--purple">join in</h1>
 
+	<div class="text-container">
+
 	<p class="left">
 		Vendible offers a unique service which aims to help artists as well as business owners. By collaborating with a variety of up
 		and coming artists we are offering different styles as well as giving artists an opportunity to get noticed.
@@ -16,6 +18,7 @@ include './parts/header.php';
 		welcome all types of artists, take a look at our current collaborators.
 	</p>
 	
+	</div>
 </div>
 
 <div class="container">

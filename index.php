@@ -11,6 +11,10 @@ include './parts/header.php';
 
 </div>
 
+ <!--
+ code for slider animation
+ !-->
+
 <div class="section container">
 	<div class="slider-wrap">
     <img src="media/high-street.png" />
