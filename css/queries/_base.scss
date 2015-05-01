@@ -91,6 +91,24 @@ body {
   background: $grey;
 }
 
+
+/*================================
+TESTING CSS FOR HOVERS
+=================================*/
+
+.box {
+  height:50px;
+  width:100px;
+  background-color:red;
+
+  &:hover {
+    height:100px;
+    p {
+      font-size:20px;
+    }
+  }
+}
+
 /*================================
 TYPOGRAPHY
 =================================*/
@@ -140,11 +158,6 @@ a {
 
 img, iframe {
   max-width: 100%;
-}
-
-img {
-  width: auto;
-  height:auto;
 }
 
 /*================================
@@ -200,7 +213,7 @@ SIZE PRIMITIVES & BLOCKS
   text-align:center;
 }
 
-img, iframe {
+ iframe {
   max-width: 100%;
   width: auto;
   height: auto;
@@ -292,6 +305,22 @@ IMAGE PADDING
 
 .pad-image {
   padding: 30px;
+}
+
+/*================================
+HOW PAGE POSTER STYLES
+=================================*/
+
+.pad-image {
+  padding: 30px;
+}
+
+.poster-piece {
+  text-align:center;
+}
+
+.hidden {
+  display:none;
 }
 
 /*================================
