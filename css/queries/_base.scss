@@ -91,24 +91,6 @@ body {
   background: $grey;
 }
 
-
-/*================================
-TESTING CSS FOR HOVERS
-=================================*/
-
-.box {
-  height:50px;
-  width:100px;
-  background-color:red;
-
-  &:hover {
-    height:100px;
-    p {
-      font-size:20px;
-    }
-  }
-}
-
 /*================================
 TYPOGRAPHY
 =================================*/
@@ -219,6 +201,12 @@ SIZE PRIMITIVES & BLOCKS
   height: auto;
 }
 
+.text-container {
+  margin: 0 auto 0 auto;
+  max-width:600px;
+  padding:20px;
+}
+
 /*================================
 BUTTONS
 =================================*/
@@ -317,6 +305,7 @@ HOW PAGE POSTER STYLES
 
 .poster-piece {
   text-align:center;
+  cursor:pointer;
 }
 
 .hidden {
