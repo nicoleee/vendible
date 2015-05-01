@@ -38,6 +38,7 @@ Footer text
 -->
 		<script src="js/bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="js/slider.js"></script>
+		<script src="js/main.js"></script>
 		<script>
 			Slider.init({
 				domElement: '#slider'
