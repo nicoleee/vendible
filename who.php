@@ -8,6 +8,10 @@ include './parts/header.php';
 
  <h1 class="h1 align-center text--purple">who's it for?</h1>
 
+  <!--
+ images
+ !-->
+
 <a href="https://www.facebook.com/media/set/?set=a.329707043906351.1073741830.329195953957460&type=1">
 	<div class="third media-holder left pad-image">
 		<img src="media/who-window.png" alt="Window Transfer">
@@ -26,7 +30,13 @@ include './parts/header.php';
 
 </div>
 
+ <!--
+ text in own container
+ !-->
+
  <div class="container">
+
+ 	<div class="text-container">
 	
 
 	<p class="left">
@@ -43,6 +53,7 @@ include './parts/header.php';
 		opportunity for artists to submit their work and be used by our buyers. Vendible believes it is important to promote fresh talent and keep up 
 		to date with all styles.
 	</p>
+</div>
 </div>
 
 
