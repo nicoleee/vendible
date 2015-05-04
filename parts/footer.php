@@ -26,7 +26,7 @@ Footer text
 				<p class="copyright">
 				<a href="http://www.nicolecookdesigns.co.uk">www.nicolecookdesigns.co.uk</a>
 				</br>
-					nicole_cook@outlook.com
+					<img src="media/email.jpg">
 				</br>
 					&copy; Nicole Cook 2015 | All Rights Reserved</p>
 
