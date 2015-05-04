@@ -38,8 +38,8 @@ include './parts/header.php';
 <div class="full background--purple">
   <div class="text-container">
   <p class="text--grey">
-  Vendible is a service that offers visual marketing products. Our main aim is to give customers an experience in stores that is not 
-  possible online. Vendible also aims to help artists and stores get noticed.
+  Vendible is a service that offers visual marketing products. Our main aims are to give customers an experience in stores that is not 
+  possible online. As well as to help artists and stores get noticed.
   </p>
 </div>
 </div>
