@@ -22,13 +22,10 @@ include './parts/header.php';
 		<img src="media/site-url.png" width="300">
 		</div>
 
-		<div class="poster-piece hidden" data-name="pick" data-for="products">
+		<div class="poster-piece hidden" data-name="pick" data-for="set-up">
 		<img src="media/pick-product.png" width="300">
 		</div>
 
-		<div class="poster-piece hidden" data-name="products" data-for="set-up">
-		<img src="media/products.png" width="300">
-		</div>
 	</div>
 
 	<div class="half left">
