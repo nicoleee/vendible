@@ -254,6 +254,11 @@ These are not specific to anything
   background: $grey;
 }
 
+.background-hero {
+  padding-bottom: 150px;
+  background: url("../media/header.jpg") no-repeat 50% 50% / cover;
+}
+
 /*================================
 TEXT MODIFIERS
 =================================*/
