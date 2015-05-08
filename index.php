@@ -1,14 +1,18 @@
-<?php
+ <div class="background-hero">
+
+  <?php
 
 include './parts/header.php';
 
  ?>
 
-<div class="container">
-	<h1 class="h1 align-center text--purple">vendible</h1>
+  <div class="container">
 
-	<p class="align-center">the visual marketing kit</p>
+  	<h1 class="h1 align-center text--grey">vendible</h1>
 
+  	<p class="align-center text--grey">the visual marketing kit</p>
+
+  </div>
 </div>
 
  <!--
@@ -35,14 +39,20 @@ include './parts/header.php';
   </div>
 </div>
 
-<div class="full background--purple">
-  <div class="text-container">
-  <p class="text--grey">
+ <!--
+ text
+ !-->
+
+<div class="text-container">
+  <p>
   Vendible is a service that offers visual marketing products. Our main aims are to give customers an experience in stores that is not 
   possible online. As well as to help artists and stores get noticed.
   </p>
 </div>
-</div>
+
+ <!--
+ three circle images
+ !-->
 
 <div class="container pad-image">
 <img src="media/how.png">
