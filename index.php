@@ -1,4 +1,5 @@
- <div class="background-hero">
+<div class="background-hero">
+<div class="nav-hero">
 
   <?php
 
@@ -6,13 +7,16 @@ include './parts/header.php';
 
  ?>
 
+</div>
+
   <div class="container">
 
-  	<h1 class="h1 align-center text--grey">vendible</h1>
+  	<h1 class="h1 align-center text--grey hero__title">vendible</h1>
 
-  	<p class="align-center text--grey">the visual marketing kit</p>
+  	<p class="align-center text--grey hero__subtitle">the visual marketing kit</p>
 
   </div>
+</div>
 </div>
 
  <!--
@@ -45,8 +49,8 @@ include './parts/header.php';
 
 <div class="text-container">
   <p>
-  Vendible is a service that offers visual marketing products. Our main aims are to give customers an experience in stores that is not 
-  possible online. As well as to help artists and stores get noticed.
+  Vendible is a service that offers visual marketing products. We aim to help stores and artists get noticed. We believe this can be 
+  done by giving customers an experience that is not available online.
   </p>
 </div>
 
