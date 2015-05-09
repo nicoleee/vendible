@@ -30,6 +30,8 @@ Footer text
 				</br>
 					&copy; Nicole Cook 2015 | All Rights Reserved</p>
 
+				<img src="media/bulogo.png" class="media-holder">
+
 			</div>
 		</footer>
 
