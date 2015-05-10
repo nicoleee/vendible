@@ -14,7 +14,7 @@ include './parts/header.php';
 		and coming artists we are offering different styles as well as giving artists an opportunity to get noticed.
 	</br></br>
 		Could you see your designs being part of a Vendible kit? Do you fancy displaying your creations in a different way? If you 
-	 	to collaborate with Vendible and get your artwork recognised please contact us. We 
+	 	want to collaborate with Vendible and get your artwork recognised please contact us. We 
 		welcome all types of artists, take a look at our current collaborators.
 	</p>
 	
